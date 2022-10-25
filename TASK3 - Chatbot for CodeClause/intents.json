@@ -1,0 +1,47 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+
+        {"tag": "codeclause",
+          "patterns": ["About codeclause", "What is codeclause?", "Services offered", "What is codeclause internship?", "codeclause"],
+          "responses": ["We offer reliable, efficient delivery with high-caliber engineers & finely-tuned software development processes.We Believe In Leadership to lead the technology to build a better future Integrity to follow truth and be real Accountability for our every commitment.\n\n We Imagine\n We Engineer\n We Modernize\n We Manage\n\n\nWe also provide internships in various domains, checkout our website codeclause.com for more info", "At CodeClause, we endeavor to provide a formidable platform for professionals who will be our change agents - catalysts who will be torchbearers of CodeClause’s fortitude to excel and redefine limits of technology to make our clients successful.\n\n\nWe also provide internships in various domains, checkout our website codeclause.com for more info"],
+          "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can give you info about the services and internships provided by codeclause.com", "We can provide you internships in various domains, We have internships in-\nData & Analytics\nAutomation AI\nInternet of Things (IoT)\nSoftware Development\nWeb Development\nApp Development", "Offering internships and services in- \nData & Analytics\nAutomation AI\nInternet of Things (IoT)\nSoftware Development\nWeb Development\nApp Development"],
+         "context": [""]
+        },
+        {"tag": "Internship",
+         "patterns": ["How to apply for the internship?", "Where to apply for internship?", "Internships offered"],
+         "responses": ["Please visit the website \nhttps://codeclause.com/careers.html \nto apply for internships\n\n\nWe have internships in-\nData & Analytics\nAutomation AI\nInternet of Things (IoT)\nSoftware Development\nWeb Development\nApp Development"],
+         "context": [""]
+        },
+
+        {"tag" : "offer_letter",
+          "patterns" : ["Applied for internship","I have applied for internship", "When will I receieve my offer letter?","offer letter not recieved"],
+          "responses": ["You will get your offer letter on mail around starting week of the month for which you've applied for the internship"],
+          "context": [""]
+
+        }
+
+   ]
+}
